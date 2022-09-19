@@ -1,0 +1,99 @@
+.in-wrapper{
+    width: 100%;
+    height: 1173px;
+}
+
+.in-wrapper > div{
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 10px;
+}
+
+.in-wrapper div:last-child > h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.in-wrapper div:last-child{
+    margin-top: 100px;
+    text-align: center;
+}
+.in-wrapper div:last-child > div{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.in-wrapper div:last-child > div > p{
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    cursor: none;
+    color: black;
+    margin: 0;
+}
+
+
+
+.in-wrapper div:last-child  div::before{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    bottom: -5px;
+}
+
+.banner{
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+}
+
+.banner div:first-child{
+    width: 30%;
+}
+
+.banner div:first-child > h1{
+    color: rgb(7, 86, 224);
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner div:first-child > p{
+    color: black;
+    font-size: 17px;
+}
+
+.banner div:first-child > button{
+    outline: none;
+    border: 0;
+    width: 50%;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.banner div:last-child{
+    align-self: flex-start;
+    margin-top: 44px;
+}
+
+.banner div:last-child > img{
+    transform: scaleX(-1);
+    filter: FlipH;
+}

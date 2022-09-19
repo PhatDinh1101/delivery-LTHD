@@ -1,0 +1,107 @@
+.h-wrapper{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    border-color: #ffffff;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 60px;
+    color: black;
+}
+ .header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+ }
+
+ .logo img {
+    width: 80px;
+}
+
+
+#main-menu{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.menu{
+    width: 10%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-icon{
+    font-size: 30px
+}
+
+#support-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+#support-menu > div {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#support-menu > div > span{
+    position: relative;
+}
+
+#support-menu > div> span::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+#support-menu > div:hover > span::before{
+    width: 100%;
+}
+
+#submit-search{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    width: 45px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+}
+
+.input-search{
+    height: 40px;
+    width: 300px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+}
+
+
+.avartar-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

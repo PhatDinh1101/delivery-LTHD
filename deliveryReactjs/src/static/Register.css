@@ -1,0 +1,23 @@
+#from-register{
+    width: 100%;
+    height: 1100px;
+    /* background-color: white !important; */
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.from-register{
+    width: 60%;
+}
+
+.from-submit-register{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

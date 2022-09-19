@@ -1,0 +1,19 @@
+.order-items{
+    margin: 30px 10px 10px 10px;
+}
+
+
+
+.order-item img{
+    width: 100px;
+    height: 100px;
+}
+
+.order-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.order-item a{
+    text-decoration: none;
+}

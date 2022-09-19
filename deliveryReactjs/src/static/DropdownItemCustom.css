@@ -1,0 +1,16 @@
+.dropDownItemCustom > a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;  
+}
+
+.dropDownItemCustom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: aliceblue;
+    transition: background 0.3s;
+}
+
+.dropDownItemCustom:hover{
+    background: rgb(228, 242, 253);
+}

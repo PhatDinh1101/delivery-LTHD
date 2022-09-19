@@ -1,0 +1,32 @@
+{
+	"user": [
+		{
+			"id": 1,
+			"username": "letuandat",
+			"password": "123456",
+			"last_name": "Dat",
+			"first_name": "Le Tuan",
+			"email": "letuandat@gmail.com",
+			"sdt": "0364971541",
+			"CCCD": "072201002449",
+			"group": "shipper",
+			"dia chi": "lalalalalalalla",
+			"gioi tinh": "Nam",
+			"avartar": "/avt.png"
+		},
+		{
+			"id": 2,
+			"username": "dinhhuuphat",
+			"password": "123456",
+			"last_name": "Phat",
+			"first_name": "Dinh Huu",
+			"email": "dinhhuuphat@gmail.com",
+			"sdt": "0364971541",
+			"CCCD": "072201002555",
+			"group": "customer",
+			"dia chi": "lalalalalalalla",
+			"gioi tinh": "Nu",
+			"avartar": "/avt.png"
+		}
+	]
+}

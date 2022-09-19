@@ -1,0 +1,52 @@
+.comment-card{
+    width: 90%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.652) !important;
+    /* box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%); */
+    border-radius: 0px 10px 10px 0px;
+    margin: 0;
+    position: relative;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    overflow: auto;
+    margin-top: 10px;
+    
+}
+
+.comment-card a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.comment-card .opption-item:hover{
+    background-color: antiquewhite;
+}
+
+.comment-card div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px 3px 10px 3px;
+}
+
+.comment-card > div{
+    border-bottom: 5px solid black;
+}
+
+.comment-customer-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comment-star-time{
+    font-size: 10px;
+}
+
+.comment-content{
+    font-size: 15px;
+    width: 190px;
+    word-wrap: break-word;
+}
